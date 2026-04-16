@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" width="240" height="48" fill="none">
+  <defs>
+    <linearGradient id="instaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Lightning bolt icon -->
+  <g transform="translate(4, 6)">
+    <polygon
+      points="20,0 11,16 17,16 12,36 23,17 16,17"
+      fill="url(#instaGrad)"
+    />
+  </g>
+
+  <!-- "Insta" text -->
+  <text
+    x="34"
+    y="34"
+    font-family="'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28"
+    font-weight="700"
+    letter-spacing="-0.5"
+    fill="url(#instaGrad)"
+  >Insta</text>
+
+  <!-- "Class" text -->
+  <text
+    x="116"
+    y="34"
+    font-family="'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28"
+    font-weight="300"
+    letter-spacing="-0.5"
+    fill="#94A3B8"
+  >Class</text>
+</svg>

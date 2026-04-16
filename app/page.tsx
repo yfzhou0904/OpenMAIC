@@ -485,8 +485,8 @@ function HomePage() {
       >
         {/* ── Logo ── */}
         <motion.img
-          src="/logo-horizontal.png"
-          alt="OpenMAIC"
+          src="/logo-horizontal.svg"
+          alt="InstaClass"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -812,7 +812,10 @@ function HomePage() {
 
       {/* Footer — flows with content, at the very end */}
       <div className="mt-auto pt-12 pb-4 text-center text-xs text-muted-foreground/40">
-        OpenMAIC Open Source Project
+        InstaClass · powered by{' '}
+        <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" rel="noopener noreferrer" className="underline hover:text-muted-foreground/60 transition-colors">
+          OpenMAIC
+        </a>
       </div>
     </div>
   );

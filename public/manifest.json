@@ -1,0 +1,14 @@
+{
+  "name": "InstaClass",
+  "short_name": "InstaClass",
+  "description": "Instant, interactive AI classroom. Powered by OpenMAIC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
